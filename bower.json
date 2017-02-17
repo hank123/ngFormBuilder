@@ -1,0 +1,32 @@
+{
+  "name": "ng-formio-builder",
+  "main": [
+    "dist/ngFormBuilder.js",
+    "css/ngFormBuilder.css"
+  ],
+  "version": "2.6.9",
+  "authors": [
+    "Travis Tidwell <travis@form.io>"
+  ],
+  "description": "The Angular.JS form builder.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-drag-and-drop-lists": "^1.4.0",
+    "angular-bootstrap": "^2.3.1",
+    "lodash": "^4.17.2",
+    "ng-ckeditor": "formio/ng-ckeditor#master",
+    "ng-dialog": "^0.6.4",
+    "ng-formio": "^2.6.9",
+    "ng-tags-input": "^3.1.1"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.6.3"
+  }
+}
